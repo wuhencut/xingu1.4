@@ -1,0 +1,44 @@
+.year-header {
+    width: 100%;
+    height: 1.3rem;
+    display: block;
+}
+
+.year-body {
+    background: url("/app/images/activity/year/bg-1.png") center center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 5.5rem;
+    color: #E5BB96;
+    padding-top: 1px;
+}
+
+.year-content {
+    width: 70%;
+    margin: 1.1rem auto 0 auto;
+}
+
+.year-content .activity-content {
+    color: #FFFFFF;
+}
+
+.year-content .activity-content td {
+    border: 0.01rem solid #FFFFFF;
+    padding-left: 0.1rem;
+}
+
+.page-notice{
+    color: #5D0202;
+}
+
+.page-notice img{
+    width: 100%;
+    height: 1.1rem;
+    display: block;
+}
+
+.page-notice .notice-content{
+    background: url("/app/images/activity/year/notice-bg1.png") center center no-repeat;
+    background-size: 100% 100%;
+    padding: 0.3rem 0.2rem;
+}

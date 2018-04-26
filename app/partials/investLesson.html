@@ -1,0 +1,27 @@
+<section class="page-invest">
+    <div class="page-knowledge">
+        <header class="page-header">
+            <div class="header-wrap">
+                <h3>投资课堂</h3>
+                <a href="#{{indexUrl}}" class="nav-left">
+                    <i class="icon-back"></i>
+                </a>
+            </div>
+        </header>
+        <div class="mod-nav">
+            <a ng-repeat="item in navObjs" class={{item.className}} href={{item.href}}>{{item.content}}</a>
+        </div>
+
+        <div class="more-knowledge">
+            <p class="trade-knowledge"><i>交易宝典</i></p>
+            <div class="container">
+                <a ng-repeat="item in titleObjs" class={{item.className}} href={{item.href}}>
+                    {{item.content}}
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>

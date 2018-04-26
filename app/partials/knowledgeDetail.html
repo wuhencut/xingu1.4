@@ -1,0 +1,21 @@
+<section class="page-know">
+    <div class="page-knowledge">
+        <header ng-if="showHeader" class="page-header">
+            <div class="header-wrap">
+                <h3>投资课堂</h3>
+                <a href="#/investLesson" class="nav-left"><i class="icon-back"></i></a>
+                <!--<a href="tel:4008888566" class="nav-right"><i class="icon-tel"></i></a>-->
+                <!--<call></call>-->
+            </div>
+        </header>
+        <div class="know-title">
+            <h3 class="txt-black txt-bold mt15 txt-s16 txt-center">{{knowledgeObj.title}}</h3>
+            <p class="txt-s12 mt15 pb15 txt-center">{{knowledgeObj.time}}</p>
+        </div>
+        <div class="mod-know-detail">
+            <div class="content" ng-bind-html="knowledgeObj.content">
+
+            </div>
+        </div>
+    </div>
+</section>
